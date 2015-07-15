@@ -1,0 +1,13 @@
+# MySQL details - if host is not filled in then the plugin will just ignore and use YAML configs
+# Remove the # below to enable MySQL
+MySQL-host: "127.0.0.1"
+MySQL-port: 3306
+MySQL-user: "root"
+MySQL-password: ""
+MySQL-database: "Main"
+# Automatically lock a chest after its placed - permission mychest.autolock
+autolock: true
+# Allow adding other players to a chest - permission mychest.add
+allow-adding: true
+# Limit of locked chests per player - permission to bypass mychest.limit.*
+limit: 8
